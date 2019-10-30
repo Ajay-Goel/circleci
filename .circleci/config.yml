@@ -6,3 +6,6 @@
       steps:
         - checkout # check out the code in the project directory
         - run: echo "hello world Ajay" # run the `echo` command
+          command : |
+            mkdir codedeploy-artifact
+            zip -r csye6225-webapp-${CIRCLE_BUILD_NUM}.zip webapp
