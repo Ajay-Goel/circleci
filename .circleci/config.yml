@@ -7,3 +7,4 @@
         - checkout # check out the code in the project directory
         - run: echo "hello world Ajay" # run the `echo` command
         - run: mkdir codedeploy-artifact
+        - run: ls
