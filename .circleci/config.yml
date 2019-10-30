@@ -6,5 +6,4 @@
       steps:
         - checkout # check out the code in the project directory
         - run: echo "hello world Ajay" # run the `echo` command
-          command : |
-            mkdir codedeploy-artifact
+        - run: mkdir codedeploy-artifact
