@@ -8,4 +8,5 @@
         - run: 
           name: Testing
           command: |
-            --echo "hello world Ajay" # run the `echo` command
+            echo "hello world Ajay"
+            pwd
