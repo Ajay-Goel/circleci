@@ -6,7 +6,6 @@
       steps:
         - checkout # check out the code in the project directory
         - run: 
-          name: Testing
-          command: |
-            echo "hello world Ajay"
-            pwd
+            command: |
+              echo "hello world Ajay"
+              pwd
