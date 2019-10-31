@@ -7,5 +7,18 @@
         - checkout # check out the code in the project directory
         - run: 
             command: |
-              echo "hello world Ajay"
+              echo "hello world Ajay" # run the `echo` command
+              mkdir codedeploy-artifact
+              ls
+              zip -r csye6225-webapp-${CIRCLE_BUILD_NUM}.zip webapp
               pwd
+              ls -al
+              mv csye6225-webapp-${CIRCLE_BUILD_NUM}.zip codedeploy-artifact/
+              ls -al
+              pwd
+              cd codedeploy-artifact
+              pwd
+              ls -al
+              cd ..
+              pwd
+              ls -al
